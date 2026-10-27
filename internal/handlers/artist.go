@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"FastRacker/internal/API"
+	API "FastRacker/internal/API"
 	"FastRacker/internal/API/models"
 )
 

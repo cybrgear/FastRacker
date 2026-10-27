@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"FastRacker/internal/API"
+	API "FastRacker/internal/API"
 )
 
 func HomeHandler(w http.ResponseWriter, r *http.Request) {
