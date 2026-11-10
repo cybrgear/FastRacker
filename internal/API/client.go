@@ -28,3 +28,6 @@ func GetArtists() ([]models.Artist, error) {
 
 	return artists, nil
 }
+
+/*Un client HTTP (http.Client) avec un timeout de 10 secondes interroge l'API distante
+Il décode automatiquement la réponse JSON reçue pour la transformer en structures de données Go exploitables*/

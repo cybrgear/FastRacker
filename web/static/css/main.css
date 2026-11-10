@@ -25,3 +25,7 @@ header {
     margin: 20px auto;
     padding: 0 20px;
 }
+
+/*Les fichiers CSS (main.css, cards.css, etc.) gèrent déjà
+l'apparence visuelle avec des variables globales
+(thème sombre, couleurs de design).*/

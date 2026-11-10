@@ -37,3 +37,8 @@ func HomeHandler(w http.ResponseWriter, r *http.Request) {
 		ErrorHandler(w, r, http.StatusInternalServerError)
 	}
 }
+/*HomeHandler gère la route racine ("/"). 
+ Il vérifie si le chemin est exact, 
+ récupère la liste des artistes via l'API, 
+charge le design global (layout.html) combiné avec la page d'accueil (index.html), 
+ puis injecte les données (artists)*/
